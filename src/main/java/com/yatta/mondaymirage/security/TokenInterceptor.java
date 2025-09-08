@@ -22,8 +22,8 @@ import java.util.Base64;
 
 import static java.util.Optional.ofNullable;
 
-@Slf4j
 @Component
+@Slf4j
 public class TokenInterceptor implements HandlerInterceptor {
     private final ObjectMapper objectMapper;
 

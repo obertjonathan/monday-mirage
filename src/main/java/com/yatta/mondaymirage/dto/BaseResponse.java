@@ -6,8 +6,8 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-@NoArgsConstructor
 @Data
+@NoArgsConstructor
 public class BaseResponse implements Serializable {
     private String code;
     private String type;
